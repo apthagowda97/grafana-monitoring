@@ -19,10 +19,10 @@ The SLI for *monthly uptime* would be 99.5% monthly uptime. And for *request res
 It is important to know why we want to measure certain metrics for our customers. Describe in detail 5 metrics to measure these SLIs. 
 
 1. Time Taken for a request to respond.
-2. The amount of failed requests.
+2. The number of failed requests.
 3. The number of requests over a period of time.
 4. CPU and Memory utilization by the service.
-5. Ability to withstand high traffic.
+5. Fronted & Backend service uptime.
 
 ## Create a Dashboard to measure our SLIs
 ![grafana-40x-50x](./answer-img/grafana-40x-50x.png)
