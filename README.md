@@ -8,6 +8,7 @@
 
 
 ## Create a Basic Dashboard
+![grafana-prometheus](./answer-img/grafana-prometheus.png)
 ![grafana-basic](./answer-img/grafana-basic.png)
 
 ## Describe SLO/SLI
@@ -35,7 +36,9 @@ It is important to know why we want to measure certain metrics for our customers
 
 ## Report Error
 ![jaeger-span](./answer-img/jaeger-span.png)
-TROUBLE TICKET
+![jaeger-traces-error](./answer-img/jaeger-traces-error.png)
+
+### TROUBLE TICKET
 
 ```
 Name: POST Request to `localhost:8081/star` gives 500 error
@@ -88,4 +91,16 @@ Now that we have our SLIs and SLOs, create a list of 2-3 KPIs to accurately meas
 
 ![grafana-final](./answer-img/grafana-final.png)
 
-Note: Description in the Grafana Dashboard
+### Description:
+
+1. Average time is taken by the request for a response.
+2. Frontend service uptime status.
+3. Backend service uptime status.
+4. Frontend service 40x & 50x errors.
+5. Backend service 40x & 50x errors.
+6. Backend Memory usage.
+7. Frontend Memory usage.
+8. Number of requests received over 30sec.
+9. Number of requests received with 200 responses over 30sec.
+10. Frontend CPU usage.
+11. Backend CPU usage.
