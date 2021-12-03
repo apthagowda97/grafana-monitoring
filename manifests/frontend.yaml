@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: apthagowda/myfrontend:latest
+        image: apthagowda/frontend:latest
         ports:
         - containerPort: 8080
 ---

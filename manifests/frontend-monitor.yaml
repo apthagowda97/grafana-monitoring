@@ -5,12 +5,13 @@ metadata:
   namespace: monitoring
   labels:
     app: frontend
+    release: prometheus
 spec:
   selector:
     matchLabels:
       app: frontend
   endpoints:
-  - port:  frontend
+  - port: frontend
     path: /metrics
     interval: 15s
   namespaceSelector:
